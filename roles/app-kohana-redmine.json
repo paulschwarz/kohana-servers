@@ -1,0 +1,15 @@
+{
+	"name": "app-kohana-redmine",
+	"json_class": "Chef::Role",
+	"description": "Role for Kohana Redmine",
+	"chef_type": "role",
+
+	"default_attributes": {},
+	"override_attributes": {},
+	"run_list": [
+		"role[server-default]",
+		"role[server-memcached]",
+//		"role[server-rails]",
+		"recipe[kohana::bashrc]"
+	]
+}

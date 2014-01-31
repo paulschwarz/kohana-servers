@@ -1,0 +1,14 @@
+{
+	"name": "server-default",
+	"json_class": "Chef::Role",
+	"description": "Role that every server should use",
+	"chef_type": "role",
+
+	"default_attributes": {},
+	"override_attributes": {},
+	"run_list": [
+		"recipe[kohana]",
+		"recipe[git]",
+		"recipe[apt]"
+	]
+}
