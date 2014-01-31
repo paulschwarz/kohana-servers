@@ -1,13 +1,12 @@
 {
-	"name": "server-ruby",
+	"name": "server-php",
 	"json_class": "Chef::Role",
-	"description": "Role for application_ruby",
+	"description": "Role for application_php",
 	"chef_type": "role",
 
 	"default_attributes": {},
 	"override_attributes": {},
 	"run_list": [
-		"recipe[mysql::client]",
-		"recipe[unicorn]"
+		"recipe[mysql::client]"
 	]
 }
