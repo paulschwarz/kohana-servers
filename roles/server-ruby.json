@@ -1,0 +1,12 @@
+{
+	"name": "server-ruby",
+	"json_class": "Chef::Role",
+	"description": "Role for application_ruby",
+	"chef_type": "role",
+
+	"default_attributes": {},
+	"override_attributes": {},
+	"run_list": [
+		"recipe[application_ruby]"
+	]
+}

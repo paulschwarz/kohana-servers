@@ -13,3 +13,30 @@
 [submodule "cookbooks/memcached"]
 	path = cookbooks/memcached
 	url = https://github.com/opscode-cookbooks/memcached.git
+[submodule "cookbooks/application_ruby"]
+	path = cookbooks/application_ruby
+	url = https://github.com/poise/application_ruby
+[submodule "cookbooks/application"]
+	path = cookbooks/application
+	url = https://github.com/poise/application
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/dmg"]
+	path = cookbooks/dmg
+	url = https://github.com/opscode-cookbooks/dmg.git
+[submodule "cookbooks/runit"]
+	path = cookbooks/runit
+	url = https://github.com/hw-cookbooks/runit.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/opscode-cookbooks/windows.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = https://github.com/opscode-cookbooks/chef_handler.git

@@ -1,4 +1,7 @@
 Vagrant.configure("2") do |config|
+
+  config.omnibus.chef_version = :latest
+
   config.vm.provider :virtualbox do |vb, override|
     override.vm.box = "precise64"
     override.vm.box_url = "http://files.vagrantup.com/precise64.box"
